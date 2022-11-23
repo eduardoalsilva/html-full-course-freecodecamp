@@ -11,100 +11,119 @@
     </head>
 
     <body>
-        <h1>My Goals for the Year</h1>
+        <header>
+            <h1>My Goals for the Year</h1>
+            <nav aria-label="primary-navigation">
+                <ul>
+                    <li>
+                        <a href="#html">Learn HTML</a>
+                    </li>
+                    <li>
+                        <a href="#vacation">Planning a Vacation</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
         <hr>
+        <main>
+            <article id="html">
+                <h2>I am ready to learn HTML</h2>
+                <p>This is my first web page.</p>
+                <section>
+                    <h3>HTML5</h3>
+                    <img src="images/html_logo_300x300.png" alt="HTML5 Logo" title="I am learning HTML5" width="300" height="300">
 
-        <nav>
-            <ul>
-                <li>
-                    <a href="#html">Learn HTML</a>
-                </li>
-                <li>
-                    <a href="#vacation">Planning a Vacation</a>
-                </li>
-            </ul>
-
-        </nav>
-
-        <hr>
-
-        <section id="html">
-            <h2>I am ready to learn HTML</h2>
-            <p>This is my first web page.</p>
-            <img src="images/html_logo_300x300.png" alt="HTML5 Logo" title="I am learning HTML5" width="300" height="300">
-
-            <figure>
-                <figcaption>An Example of HTML5 code</figcaption>
-                <p>
-                    <code>&lt;h1&gt;Hello World! &lt;/h1&gt;</code>
-                </p>
-            </figure>
-            <h3>My Daily Schedule</h3>
-            <p>Let me tell you how:</p>
-            <ol>
-                <li>...I learn more about web dev.</li>
-                <li>...I plan out my Schedule</li>
-                <li>...I use resources from <abbr title="Mozilla Developer Network"><a href="https://developer.mozilla.org/pt-BR/">MDN</a></abbr>.</li>
-            </ol>
-        </section>
-
-        <hr>
-
-        <section id="vacation">
-            <h2>I am also planning a vacation</h2>
-            <p>I've been working hard and <em>really need a getaway</em>.</p>
-            <p>I live in <abbr title="Kansas">KS</abbr> so I want visit a beach.</p>
-
-            <h3>Places I'd like to visit</h3>
-            <ul>
-            
-                <li>
-                    <p>I've heard good things about the Caribbean.</p>
                     <figure>
-                        <img src="images/caribbean.jpg" alt="Caribbean beach" title="I want to visit a Caribbean beach" width="400" height="225" loading="lazy">
-                        <figcaption>
-                            Caribbean Beach Getaway
-                        </figcaption>
+                        <figcaption>An Example of HTML5 code</figcaption>
+                        <p>
+                            <code>&lt;h1&gt;Hello World! &lt;/h1&gt;</code>
+                        </p>
                     </figure>
-                </li>
-                <li>
-                    <p>I've heard good things about going here.</p>
-                    <address>Margaritaville Island Reserve Riviera
-                        Cancún<br>
-                        Bahia Petempich Puerto Morelos,
-                        Mexico<br>
-                        Colonia Morelos, México 77580
-                    </address>
-                    <figure>
-                        <img src="images/vacation.jpg" alt="Cancun Vacation" title="It's 5 o'Clock Somewhere" loading="lazy" width="400" height="267">
-                        <figcaption>
-                            A Caribbean Vacation Image
-                        </figcaption>
-                    </figure>
-                </li>
-            </ul>
+                </section>  
+                <section>
+                    <h3>My Daily Schedule</h3>
+                    <p>Let me tell you how:</p>
+                    <ol>
+                        <li>...I learn more about web dev.</li>
+                        <li>...I plan out my Schedule</li>
+                        <li>...I use resources from <abbr title="Mozilla Developer Network"><a href="https://developer.mozilla.org/pt-BR/">MDN</a></abbr>.</li>
+                    </ol>
 
-            <h3>Places I want to avoid</h3>
-            <dl>
-                <dt>North Pole</dt>
-                <dd>I heard this is <strong>cold</strong>!</dd>
-            
+                    <aside>
+                        <details>
+                            <summary>Guess the <mark>number of hours</mark> I code per day</summary>
+                            <p>I start at <time datetime="08:00">8 am</time:datetime> 8 am and I write code for <time datetime="PT3H">3 hours</time> every morning.</p>
+                        </details>
+                    </aside>
+                </section>
+            </article>
 
-                <dt>South Pole</dt>
-                <dd>This is also cold.</dd>
+            <hr>
 
-                <dt>Mountain Tops</dt>
-                <dd>These are also cold.</dd>
-            </dl>
-            <p>Anywhere cold. <strong>No way!</strong></p>
+            <article id="vacation">
+                <h2>I am also planning a vacation</h2>
+                <p>I've been working hard and <em>really need a getaway</em>.</p>
+                <p>I live in <abbr title="Kansas">KS</abbr> so I want visit a beach.</p>
 
-        </section>
-        <hr>
-        &lt;&lt;&lt; &copy; <a href="about.html">Eduardo Silva</a> &gt;&gt;&gt;
+                <section>
+                    <h3>Places I'd like to visit</h3>
+                    <ul>
+                    
+                        <li>
+                            <p>I've heard good things about the Caribbean.</p>
+                            <figure>
+                                <img src="images/caribbean.jpg" alt="Caribbean beach" title="I want to visit a Caribbean beach" width="400" height="225" loading="lazy">
+                                <figcaption>
+                                    Caribbean Beach Getaway
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <p>I've heard good things about going here.</p>
+                            <address>Margaritaville Island Reserve Riviera
+                                Cancún<br>
+                                Bahia Petempich Puerto Morelos,
+                                Mexico<br>
+                                Colonia Morelos, México 77580
+                            </address>
+                            <figure>
+                                <img src="images/vacation.jpg" alt="Cancun Vacation" title="It's 5 o'Clock Somewhere" loading="lazy" width="400" height="267">
+                                <figcaption>
+                                    A Caribbean Vacation Image
+                                </figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </section>
 
-        <p>
-            <a href="#">Back to Top</a>
-        </p>
+                <section>
+                    <h3>Places I want to avoid</h3>
+                    <dl>
+                        <dt>North Pole</dt>
+                        <dd>I heard this is <strong>cold</strong>!</dd>
+                    
+
+                        <dt>South Pole</dt>
+                        <dd>This is also cold.</dd>
+
+                        <dt>Mountain Tops</dt>
+                        <dd>These are also cold.</dd>
+                    </dl>
+                    <p>Anywhere cold. <strong>No way!</strong></p>
+                </section>
+            </article>
+        </main>
+
+        <footer>
+            <hr>
+            <p>
+                &lt;&lt;&lt; &copy; <a href="about.html">Eduardo Silva</a> &gt;&gt;&gt;
+            </p>
+            <p>
+                <a href="#">Back to Top</a>
+            </p>
+
+        </footer>
     </body>
 </html>
